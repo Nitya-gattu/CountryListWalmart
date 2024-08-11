@@ -59,4 +59,8 @@ dependencies {
 
     implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
     implementation ("androidx.fragment:fragment-ktx:1.8.1")
+
+    testImplementation("io.mockk:mockk:1.13.4")
+    testImplementation("androidx.arch.core:core-testing:2.2.0")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4")
 }

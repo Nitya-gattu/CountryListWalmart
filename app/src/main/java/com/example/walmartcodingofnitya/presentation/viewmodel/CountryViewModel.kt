@@ -22,7 +22,7 @@ class CountryViewModel(
         getCountryDataList()
     }
 
-    private fun getCountryDataList() {
+     fun getCountryDataList() {
         viewModelScope.launch {
             try {
                 val result = countryUseCase.invoke()
