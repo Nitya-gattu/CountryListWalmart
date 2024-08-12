@@ -1,6 +1,6 @@
 package com.example.walmartcodingofnitya.utils
 
-import com.example.walmartcodingofnitya.data.dto.CountryResponseEntityItem
+import com.example.walmartcodingofnitya.data.dto.CountryResponseEntity
 import com.example.walmartcodingofnitya.data.dto.Currency
 import com.example.walmartcodingofnitya.data.dto.Language
 import com.example.walmartcodingofnitya.domain.dto.CountryListDoamin
@@ -22,23 +22,23 @@ object MockData {
     )
 
     val mockCountryResponseList = listOf(
-        CountryResponseEntityItem(
+        CountryResponseEntity(
             capital = "Kabul",
             code = "AF",
             currency = Currency("AFN", "Afghan afghani" , ""),
             demonym = "Afghan",
             flag = "https://restcountries.com/v2/af/flag",
-            language = Language("Pashto", name = "ps", iso639_2 =  "", nativeName = ""),
+            language = Language("Pashto", name = "ps", iso6392 =  "", nativeName = ""),
             name = "Afghanistan",
             region = "Asia"
         ),
-        CountryResponseEntityItem(
+        CountryResponseEntity(
             capital = "Tirana",
             code = "AL",
             currency = Currency("ALL", "Albanian lek", ""),
             demonym = "Albanian",
             flag = "https://restcountries.com/v2/al/flag",
-            language = Language("Albanian", name = "sq", iso639_2 =  "", nativeName = ""),
+            language = Language("Albanian", name = "sq", iso6392 =  "", nativeName = ""),
             name = "Albania",
             region = "Europe"
         )

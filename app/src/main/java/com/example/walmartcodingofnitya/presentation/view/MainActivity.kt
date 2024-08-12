@@ -10,10 +10,8 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.walmartcodingofnitya.R
-import com.example.walmartcodingofnitya.data.remote.CountryApiService
 import com.example.walmartcodingofnitya.data.repository.CountryRepository
 import com.example.walmartcodingofnitya.databinding.ActivityMainBinding
-import com.example.walmartcodingofnitya.domain.dto.CountryListDoamin
 import com.example.walmartcodingofnitya.domain.usecase.CountryUseCase
 import com.example.walmartcodingofnitya.presentation.view.adapter.CountryListAdapter
 import com.example.walmartcodingofnitya.presentation.viewmodel.CountryViewModel
@@ -67,6 +65,4 @@ class MainActivity : AppCompatActivity() {
     companion object{
         const val ERROR_MSG = "error"
     }
-
-
 }

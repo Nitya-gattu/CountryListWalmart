@@ -3,7 +3,6 @@ package com.example.walmartcodingofnitya.presentation.view.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.RecyclerView.Adapter
 import com.example.walmartcodingofnitya.databinding.CountryListItemBinding
 import com.example.walmartcodingofnitya.domain.dto.CountryListDoamin
 

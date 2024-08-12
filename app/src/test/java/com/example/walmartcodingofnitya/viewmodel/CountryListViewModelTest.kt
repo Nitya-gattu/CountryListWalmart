@@ -24,10 +24,10 @@ class CountryListViewModelTest {
     @get:Rule
     val mainDispatcherRule = MainDispatcherRule()
 
-    val useCase = mockk<CountryUseCase>()
-    val successObserver = mockk<Observer<List<CountryListDoamin>>>(relaxed = true)
-    val errorObserver = mockk<Observer<String>>(relaxed = true)
-    lateinit var viewModel : CountryViewModel
+    private val useCase = mockk<CountryUseCase>()
+    private val successObserver = mockk<Observer<List<CountryListDoamin>>>(relaxed = true)
+    private val errorObserver = mockk<Observer<String>>(relaxed = true)
+    private lateinit var viewModel : CountryViewModel
 
     @Before
     fun setUp(){
